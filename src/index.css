@@ -1,0 +1,25 @@
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button{
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: 600;
+}
+
+.main_div{
+  max-height: 100vh;
+  overflow : scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  
+}
+
